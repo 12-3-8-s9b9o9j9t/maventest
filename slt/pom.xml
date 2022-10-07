@@ -10,6 +10,12 @@
   <name>slt</name>
   <url>http://maven.apache.org</url>
 
+  <description>SLT corp. based site</description>
+  
+  <developers>
+  	<developer></developer>
+  </developers>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -127,4 +133,9 @@
             </plugin>
    </plugins>
   </reporting>
+  
+  <scm>
+     <connection>scm:git:git:https://github.com/12-3-8-s9b9o9j9t/maventest.git</connection>
+     <url>https://github.com/12-3-8-s9b9o9j9t/maventest.git</url>
+  </scm>
 </project>
