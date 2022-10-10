@@ -13,7 +13,7 @@ public class App {
    * Code mort.
    */
   public int codeMort(double c, char cc) {
-      int a = 42;
+      int a = 12;
       int b = 69;
       int z = 3;
       if(b<a) {
