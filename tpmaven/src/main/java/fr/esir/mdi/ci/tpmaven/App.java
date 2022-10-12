@@ -9,6 +9,20 @@ public class App {
     System.out.println("Hello World!");
   }
   
+  
+  public static float sum(float a, float b) {
+	  return a+b;
+  }
+  
+  public static boolean estTrie(int[] t) {
+	  boolean res = true;
+	  int a = t.length == 0 ? 0 : t[0];
+	  for (int i=0; i<t.length; i++) {
+		  res &= a <= t[i];
+		  a = t[i];
+	  }
+	  return res;
+  }
   /**
    * Code mort.
    */
