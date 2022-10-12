@@ -113,7 +113,7 @@
 					</descriptors>
 					<archive>
 						<manifest>
-							<mainClass>fr.esir.mdi.ci.tpmaven.App</mainClass>
+							<mainClass>fr.esir.mdi.ci.tpmaven.FirstPdf</mainClass>
 						</manifest>
 					</archive>
                 </configuration>
