@@ -1,5 +1,7 @@
 package fr.esir.mdi.ci.tpmaven;
 
+import com.pushtorefresh.javac_warning_annotation.Warning;
+
 /**
  * Hello world!
  * Test Javadoc en ligne. 
@@ -26,6 +28,7 @@ public class App {
   /**
    * Code mort.
    */
+  @Warning("ce code est décédé, il devrait se faire incinérer")
   public int codeMort(double c, char cc) {
       int a = 12;
       int b = 69;
