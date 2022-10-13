@@ -69,6 +69,7 @@
 					<!-- or whatever version you use -->
 					<source>11</source>
 					<target>11</target>
+					<showWarnings>true</showWarnings>
 				</configuration>
 			</plugin>
 			<plugin>
