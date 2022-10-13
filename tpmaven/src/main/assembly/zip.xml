@@ -10,11 +10,10 @@
 			<directory>${project.basedir}</directory>
 			<outputDirectory>.</outputDirectory>
 			<excludes>
-				<exclude>.project/</exclude>
-				<exclude>.settings/</exclude>
-				<exclude>.gitignore</exclude>
-				<exclude>.classpath</exclude>
+				<exclude>.*</exclude>
 				<exclude>target/</exclude>
+				<exclude>pom.xml</exclude>
+				<exclude>*.pdf</exclude>
 			</excludes>
 		</fileSet>
 	</fileSets>
