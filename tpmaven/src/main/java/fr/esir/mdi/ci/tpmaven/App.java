@@ -6,7 +6,7 @@ package fr.esir.mdi.ci.tpmaven;
  */
 public class App {
   public static void main(String[] args) {
-    System.out.println("Hello Worlfrefrferfred!");
+    System.out.println("Bonjour.");
   }
   
   
