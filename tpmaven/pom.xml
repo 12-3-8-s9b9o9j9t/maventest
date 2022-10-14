@@ -27,11 +27,6 @@
 			<artifactId>itextpdf</artifactId>
 			<version>5.5.13.1</version>
 		</dependency>
-		<dependency>
-			<groupId>com.pushtorefresh</groupId>
-			<artifactId>javac-warning-annotation</artifactId>
-			<version>1.0.0</version>
-		</dependency>
 	</dependencies>
 	<build>
 		<!-- To define the plugin version in your parent POM -->
@@ -69,7 +64,6 @@
 					<!-- or whatever version you use -->
 					<source>11</source>
 					<target>11</target>
-					<showWarnings>true</showWarnings>
 				</configuration>
 			</plugin>
 			<plugin>
